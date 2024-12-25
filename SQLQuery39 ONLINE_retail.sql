@@ -1,15 +1,3 @@
-SELECT TOP (1000) [InvoiceNo]
-      ,[InvoiceDate]
-      ,[InvoiceTime]
-      ,[StockCode]
-      ,[Description]
-      ,[Quantity]
-      ,[UnitPrice]
-      ,[Totalsale]
-      ,[CustomerID]
-      ,[Country]
-  FROM [PortfolioProjects].[dbo].[Online Retail]
-
     select count(*)
   from PortfolioProjects..[Online Retail]
  -- 541,909
